@@ -30,7 +30,7 @@ var _hmt = _hmt || [];
 
 
 </head>
-<body class="home-template">
+<body class="tag-template">
 <div id="page" class="site">
 
     <header class="site-header">
@@ -100,24 +100,18 @@ var _hmt = _hmt || [];
 
     <main class="site-main">
         <div class="site-content">
-            <!-- 封面 -->
-            <div class="cover hero">
-                <div class="cover-bg" style="background-image: linear-gradient( 135deg, #EE9AE5 10%, #5961F9 100%);">
-                    
-                        <img srcset="https://zvhub.com/blog/media/images/home-cover.jpg 300w, https://zvhub.com/blog/media/images/home-cover.jpg 600w, https://zvhub.com/blog/media/images/home-cover.jpg 800w, https://zvhub.com/blog/media/images/home-cover.jpg 1600w, https://zvhub.com/blog/media/images/home-cover.jpg 2000w" sizes="100vw" src="https://zvhub.com/blog/media/images/home-cover.jpg" alt="cover"/>
-                    
-                </div>
+
+            <header class="cover page-header">
+                <div class="cover-bg"
+                     style="background-image: linear-gradient( 135deg, #43CBFF 10%, #9708CC 100%);"></div>
                 <div class="cover-content">
-                    <!-- 封面内容 -->
                     <div class="inner">
-                        <h2 class="hero-title">断肠人在天涯？……</h2>
-                        <p class="hero-text"></p>
-                        <a href="#post-list" class="arrow-down" data-scroll><span class="screen-reader-text">Scroll Down</span></a>
+                        <div class="post-count"></div>
+                        <h1 class="page-title" style="font-size: 46px;">随心</h1>
                     </div>
                 </div>
-            </div>
+            </header>
 
-            <!-- post-list -->
             <div id="post-list" class="post-list inner">
                 
                     <article class="post">
@@ -137,8 +131,7 @@ var _hmt = _hmt || [];
                                 <div class="post-meta">
                                     <i class="fa fa-eye"></i>
                                     <span class="post-author">1 min read</span>
-                                    <time class="published"
-                                          datetime="2020-07-18">2020-07-18</time>
+                                    <time class="published" datetime="2020-07-18">2020-07-18</time>
                                 </div>
                             </div>
                         </header>
@@ -147,11 +140,12 @@ var _hmt = _hmt || [];
                             <div class="read-more">
                                 <a class="button" href="https://zvhub.com/blog/post/gu-dao-kai-pian/">
                                     Read More
-                                    <span aria-hidden="true"></span>
+                                    <span aria-hidden="true"> </span>
                                     <span class="line left"></span>
                                     <span class="line top"></span>
                                     <span class="line right"></span>
                                     <span class="line bottom"></span>
+
                                 </a>
                             </div>
                         </div>
@@ -167,6 +161,7 @@ var _hmt = _hmt || [];
         
     </div>
 </nav>
+
 
 
         </div>
